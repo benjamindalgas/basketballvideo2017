@@ -1,7 +1,7 @@
 var shot = ["https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
-"https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1", 
+"https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
@@ -9,15 +9,11 @@ var shot = ["https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1"
 ];
-
 var shot3 = ["https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=150"];
-
 
 var teamscore = 0;
 var intervalId;
 var timer = 0;
-
-
 
 function randomshot() {
     var x = Math.floor(Math.random() * shot.length);
@@ -28,7 +24,7 @@ function randomshot() {
     } else {
         noscore();
     }
-  
+
 }
 
 function randomshot3(){
@@ -37,7 +33,7 @@ function randomshot3(){
     document.getElementById("dunkpic").src = imagepicker;
     if (x < 1) {
         addscore3();
-        
+
     } else {
         noscore();
     }
@@ -49,7 +45,7 @@ function addscore() {
   openNav();
   document.getElementById("teamdisplay").innerHTML = teamscore;
   setTimeout(function blackout() {document.getElementById("myNav").style.height = "0%";},  11000);
-  
+
 }
 
 function addscore3() {
@@ -66,18 +62,18 @@ function noscore() {
   setTimeout(function blackout() {document.getElementById("myNav").style.height = "0%";},  11000);
 }
 
- 
- 
+
+
  //dialogue functions for the adding presentation
-function present() { 
-    document.getElementById("presentationembedurl").showModal(); 
-} 
+function present() {
+    document.getElementById("presentationembedurl").showModal();
+}
 
 function closepresent() {
   var x = document.getElementById("slidesurl").value;
   document.getElementById("lesson").src = x;
   document.getElementById("presentationembedurl").close();
-  
+
 }
 
 
@@ -86,7 +82,7 @@ function closepresent() {
 function RunTimer() {
     timer++;
     $("#timer").html(timer);
-    
+
 }
 
 $(function() {
