@@ -1,6 +1,7 @@
 var shot = ["https://www.youtube.com/embed/kM78hErGmEo?rel=0&amp;controls=0&amp;showinfo=0&amp;start=380&end=388;autoplay=1",
+"https://www.youtube.com/embed/kM78hErGmEo?rel=0&amp;controls=0&amp;showinfo=0&amp;start=380&end=388;autoplay=1",
 "https://www.youtube.com/embed/abCtUV_mGZs?rel=0&amp;controls=0&amp;showinfo=0&amp;start=96&end=106;autoplay=1",
-"https://www.youtube.com/embed/TTLB_nhBiMM?rel=0&amp;controls=0&amp;showinfo=0&amp;start=213&end=223;autoplay=1",
+"https://www.youtube.com/embed/TTLB_nhBiMM?rel=0&amp;controls=0&amp;showinfo=0&amp;start=223&end=233;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
 "https://www.youtube.com/embed/Xkuqe8q1dLQ?rel=0&amp;controls=0&amp;showinfo=0&amp;start=381&end=390;autoplay=1",
 "https://www.youtube.com/embed/Vc5fTIz29Nw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=141&end=152;autoplay=1",
