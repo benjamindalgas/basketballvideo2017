@@ -70,9 +70,10 @@ function present() {
 }
 
 function closepresent() {
+document.getElementById("presentationembedurl").close();
   var x = document.getElementById("slidesurl").value;
   document.getElementById("lesson").src = x;
-  document.getElementById("presentationembedurl").close();
+
 
 }
 
